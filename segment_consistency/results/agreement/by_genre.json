@@ -1,0 +1,14 @@
+{
+  "Unknown": {
+    "n": 2215,
+    "bf_05_mean": 0.4052370735029455,
+    "kappa_mean": 0.19080711558993743,
+    "iou_mean": 0.41257978610823065,
+    "quadrant_counts": {
+      "full_disagree": 1505,
+      "label_only": 371,
+      "boundary_only": 222,
+      "high": 117
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Data folder (large files, not tracked)
+segment_consistency/data/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Env
+.env

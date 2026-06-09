@@ -1,0 +1,27 @@
+salami_root: ""       # set via CLI argument or env SALAMI_ROOT
+audio_root: ""        # set via CLI argument
+
+# CNN boundary detector
+model:
+  n_mels: 80
+  patch_frames: 15
+
+# Training
+train:
+  epochs: 50
+  batch_size: 512
+  lr: 1.0e-3
+  weight_decay: 1.0e-4
+  patience: 10
+  seeds: [42, 123, 777]
+
+# Evaluation tolerance windows (seconds)
+eval:
+  window_strict: 0.5
+  window_lenient: 3.0
+
+# Data splits
+splits:
+  test_size: 0.2
+  val_fraction_of_temp: 0.5
+  random_state: 42

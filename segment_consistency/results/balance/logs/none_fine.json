@@ -1,0 +1,33 @@
+{
+  "run_name": "none_fine",
+  "balance": "none",
+  "seed": 42,
+  "epochs": [
+    {
+      "epoch": 1,
+      "train_loss": 0.17043558118994118,
+      "val_loss": 0.1704404636726963,
+      "learning_rate": 0.001,
+      "epoch_time_seconds": 13497.241846084595,
+      "is_best": true
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.1652827408765205,
+      "val_loss": 0.16834398921971813,
+      "learning_rate": 0.001,
+      "epoch_time_seconds": 19156.528593063354,
+      "is_best": true
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.16453020234858692,
+      "val_loss": 0.1687724509760593,
+      "learning_rate": 0.001,
+      "epoch_time_seconds": 19418.411903858185,
+      "is_best": false
+    }
+  ],
+  "best_val_loss": 0.16834398921971813,
+  "best_epoch": 2
+}
