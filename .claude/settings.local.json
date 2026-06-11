@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(awk -F',' 'NR>1 {if \\($14 != \"\"\\) count++; total++} END {print \"Total tracks: \" total; print \"Tracks with dual annotations \\(TEXTFILE2\\): \" count}' metadata/metadata.csv)",
+      "Bash(uv init *)",
+      "Bash(uv add *)",
+      "Bash(uv run *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('results/variation/stats.json'\\)\\); print\\(json.dumps\\(d, indent=2\\)\\)\")"
+    ]
+  }
+}
